@@ -1,5 +1,17 @@
 <template>
-  <div class="">
+  <div class="bg-nocta-5 flex flex-col rounded-xl p-8 gap-y-10 justify-around">
+    <page-title class="flex">
+      <div>
+        <img src="berat.png" class="w-28 rounded-full border-nocta-4 border-2" />
+      </div>
+      <p>
+        Berat Pasa Aras
+      </p> 
+    </page-title>
+    <about></about>
+    <knopje class="flex self-center bg-nocta-7" to="projects">
+      <p>Explore!</p>
+    </knopje>
   </div>
 </template>
 
