@@ -2,26 +2,26 @@
     <div class="bg-nocta-5 flex flex-col rounded-xl p-8 gap-y-10">
         <page-title class="flex flex-col items-center">
             <p>Projects</p>
-            <p class="text-xl font-normal">This page contains a selection of my projects.</p>
+            <p class="md:text-xl text-base font-normal">This page contains a selection of my projects.</p>
         </page-title>
         <section class="flex flex-col">
           <NuxtLink to="datavis" class="flex flex-col mt-6 pl-6 gap-y-5 border-l-8 border-nocta-4 transitiones">
               <XpCard class="hover:border-nocta-4" :key="proj.title" v-for="proj in projects">
                   <div class="flex font-medium bg-nocta-7 rounded-t-lg text-nocta-6 py-1 px-4">
-                      <p class="text-2xl">{{ proj.title }}</p>
+                      <p class="md:text-2xl text-lg">{{ proj.title }}</p>
                   </div>
-                  <div class="flex justify-between">
-                    <div class="flex flex-col justify-between text-lg pl-5 py-7 pr-32 text-nocta-6">
+                  <div class="flex md:flex-row flex-col justify-between">
+                    <div class="flex flex-col md:text-lg text-base p-5 md:py-7 py-9 md:pr-32 text-nocta-6" v-show="proj.description">
                         <p>
                             {{ proj.description }}
                         </p>
-                        <div class="flex gap-x-5 text-lg pt-7">
+                        <div class="flex flex-wrap gap-3 text-lg pt-7">
                             <Pill :key="skill" v-for="skill in proj.stack">
                                 {{  skill }}
                             </Pill>
                         </div>
                     </div>
-                      <img class="w-60 m-5 border-2 border-nocta-7 rounded-xl shadow-xl" src="DATAVIS.svg"/>
+                    <img class="md:-order-none order-first w-60 m-5 border-2 border-nocta-7 rounded-xl shadow-xl" src="DATAVIS.svg"/>
                   </div>
               </XpCard>
           </NuxtLink>
