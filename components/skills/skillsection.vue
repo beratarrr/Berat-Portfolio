@@ -1,9 +1,9 @@
 <template>
     <card>
-        <div class="grid grid-cols-6 gap-5">
+        <div class="grid md:grid-cols-6 md:gap-5 gap-3 grid-cols-3">
             <skillcard :key="skill.title" v-for="skill in skills" :href="skill.link" target="_blank">
-                <img class="p-8" :src="skill.image" />
-                <div class=" text-nocta-4 text-3xl font-medium py-2">
+                <img class="md:p-4" :src="skill.image" />
+                <div class=" text-nocta-4 md:text-3xl text-base font-medium py-2">
                     {{ skill.title }}
                 </div>
             </skillcard>
