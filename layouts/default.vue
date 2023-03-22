@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-12 grid-rows-6 h-screen w-full fixed bg-gradient-to-tr from-nocta-1 to-nocta-7">
+    <div class="grid grid-cols-12 grid-rows-6 h-screen w-full fixed bg-gradient-to-tr from-nocta-1   to-nocta-7">
         <div class="col-span-10 col-start-2 row-span-1 mt-20">
             <navbar class=""></navbar>
         </div>

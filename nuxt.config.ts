@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     { path: '~/components/homepage'},
     { path: '~/components/skills'},
     { path: '~/components/experience'},
+    { path: '~/components/projects'},
     '~/components',
   ],
   postcss: {

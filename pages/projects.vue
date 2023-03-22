@@ -5,7 +5,7 @@
             <p class="text-xl font-normal">This page contains a selection of my projects.</p>
         </page-title>
         <section class="flex flex-col">
-          <NuxtLink to="projects/datavis" class="flex flex-col mt-6 pl-6 gap-y-5 border-l-8 border-nocta-4 transitiones">
+          <NuxtLink to="datavis" class="flex flex-col mt-6 pl-6 gap-y-5 border-l-8 border-nocta-4 transitiones">
               <XpCard class="hover:border-nocta-4" :key="proj.title" v-for="proj in projects">
                   <div class="flex font-medium bg-nocta-7 rounded-t-lg text-nocta-6 py-1 px-4">
                       <p class="text-2xl">{{ proj.title }}</p>

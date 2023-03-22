@@ -4,10 +4,13 @@
       :class="{ '-translate-y-full mt-7': extended, '': !extended }"
     >
       <div
-      class="flex justify-between bg-nocta-5 border-r-2 border-l-2 border-nocta-4 p-5 pb-7"
+      class="flex justify-between items-center bg-nocta-5 border-r-2 border-l-2 border-nocta-4 p-5"
       >
       <a href="https://github.com/beratarrr" target="_blank">
         <img src="github.svg" class="w-12" />
+      </a>
+      <a href="mailto:b.p.aras@hotmail.com" target="_blank">
+        <img src="mail.png" class="w-14" />
       </a>
       <a href="https://linkedin.com/in/berat-aras/" target="_blank">
         <img src="linkedin.svg" class="w-12" />
