@@ -7,13 +7,13 @@
       class="flex justify-between items-center bg-nocta-5 border-r-2 border-l-2 border-nocta-7 p-5"
       >
       <a href="https://github.com/beratarrr" target="_blank">
-        <img src="github.svg" class="w-12" />
+        <img src="/github.svg" class="w-12" />
       </a>
       <a href="mailto:b.p.aras@hotmail.com" target="_blank">
-        <img src="mail.png" class="w-14" />
+        <img src="/mail.png" class="w-14" />
       </a>
       <a href="https://linkedin.com/in/berat-aras/" target="_blank">
-        <img src="linkedin.svg" class="w-12" />
+        <img src="/linkedin.svg" class="w-12" />
       </a>
     </div>
     <div>
@@ -22,13 +22,13 @@
         @click="extended = !extended"
       >
         <img
-          src="arrow-up.svg"
+          src="/arrow-up.svg"
           class="w-6 transitiones transform"
           :class="{ 'rotate-180': extended, '': !extended }"
         />
         <p class="text-lg tracking-widest text-nocta-4 font-bold">LINKS</p>
         <img
-          src="arrow-up.svg"
+          src="/arrow-up.svg"
           class="w-6 transitiones transform"
           :class="{ '-rotate-180': extended, '': !extended }"
         />

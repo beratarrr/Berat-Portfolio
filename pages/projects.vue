@@ -21,7 +21,7 @@
                             </Pill>
                         </div>
                     </div>
-                    <img class="md:-order-none order-first w-60 m-5 border-2 border-nocta-7 rounded-xl shadow-xl" src="DATAVIS.svg"/>
+                    <img class="md:-order-none order-first w-60 m-5 border-2 border-nocta-7 rounded-xl shadow-xl" src="/DATAVIS.svg"/>
                   </div>
               </XpCard>
           </NuxtLink>

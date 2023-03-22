@@ -8,7 +8,7 @@
         </div>
         <section class="md:grid md:grid-cols-12 flex flex-col gap-4">
             <div class="col-span-5">
-                <img src="datavispic.png" />
+                <img src="/datavispic.png" />
             </div>
             <projectcard class="col-span-7">
                 <div class="flex justify-between font-medium bg-nocta-7 text-nocta-6 py-1 px-4">
@@ -37,7 +37,7 @@
                 <div class="flex items-center py-3 px-4 gap-x-5">
                     <linkbutton href="https://www.google.com" target="_blank">
                         <p>SOURCE</p>
-                        <img src="link.svg" class="w-7" />
+                        <img src="/link.svg" class="w-7" />
                     </linkbutton>
                 </div>
             </projectcard>
