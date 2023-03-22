@@ -3,18 +3,18 @@
         <div class="flex">
             <backknopje to="projects" />
             <page-title class="flex items-center m-auto">
-                <p class="text-5xl">Projects / DataVis</p>
+                <p class="md:text-3xl text-2xl">Projects / DataVis</p>
             </page-title>
         </div>
-        <section class="grid grid-cols-12 gap-4">
+        <section class="md:grid md:grid-cols-12 flex flex-col gap-4">
             <div class="col-span-5">
                 <img src="datavispic.png" />
             </div>
             <projectcard class="col-span-7">
                 <div class="flex justify-between font-medium bg-nocta-7 text-nocta-6 py-1 px-4">
-                    <p class="text-2xl">About</p>
+                    <p class="md:text-2xl text-lg">About</p>
                 </div>
-                <div class="text-lg pl-5 py-7 text-nocta-6">
+                <div class="md:text-lg text-base pl-5 md:py-7 py-3 md:pr-32 text-nocta-6">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos ad quidem alias? Iure alias minus eius quod incidunt aperiam laudantium. Quis voluptatem a esse autem libero, nemo asperiores fugiat, accusamus temporibus, natus optio culpa aliquam adipisci quas hic ipsam.
                     </p>
@@ -22,17 +22,17 @@
             </projectcard>
             <projectcard class="flex flex-col col-span-6">
                 <div class="flex font-medium bg-nocta-7 text-nocta-6 py-1 px-4">
-                    <p class="text-2xl">Links</p>
+                    <p class="md:text-2xl text-lg">Features</p>
                 </div>
                 <div class="flex flex-wrap gap-y-3 gap-x-6 items-center py-3 px-4">
                     <pill>Display data about the 2022 Qatar world cup</pill>
-                    <pill>User is able to adjust charts to liking and remover subjects</pill>
-                    <pill>Live, up to date data</pill>
+                    <pill>User is able to adjust charts to liking and remove subjects</pill>
+                    <pill>Live, up to date, data</pill>
                 </div>
             </projectcard>
             <projectcard class="col-span-6">
                 <div class="flex font-medium bg-nocta-7 text-nocta-6 py-1 px-4">
-                    <p class="text-2xl">Links</p>
+                    <p class="md:text-2xl text-lg">Links</p>
                 </div>
                 <div class="flex items-center py-3 px-4 gap-x-5">
                     <linkbutton href="https://www.google.com" target="_blank">

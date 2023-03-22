@@ -1,26 +1,26 @@
 <template>
-   <div class="flex flex-col p-8 gap-y-10">
+   <div class="flex flex-col p-8 gap-y-11">
         <section class="" >
-            <page-title>
-                    <p>Hi</p>
+            <page-title class="flex flex-wrap">
+                    <p class="">Hi</p>
                     <div class="">
-                        <h2 class="flex font-bold text-6xl text-nocta-4" >{{name}}</h2>  
+                        <h2 class="flex font-bold md:text-6xl text-4xl text-nocta-4" >{{name}}</h2>  
                         <div class="flex gap-5 items-center justify-center h-full">
-                            <span class="animate-pulse block w-64 h-4 bg-nocta-4 rounded-2xl" v-show="!name"> </span>
-                            <span class="animate-pulse block w-36 h-4 bg-yellow-600 rounded-2xl" v-show="!name"> </span>
+                            <span class="animate-pulse block md:w-64 md:h-4 h-3 w-28 bg-nocta-4 rounded-2xl" v-show="!name"> </span>
+                            <span class="animate-pulse block md:w-36 md:h-4 h-3 w-32 bg-yellow-600 rounded-2xl" v-show="!name"> </span>
                         </div>
                     </div>
-                    <h2 class="flex font-bold text-6xl text-nocta-6" >,cup of coffee?</h2>  
+                    <h2 class="flex font-bold md:text-6xl text-4xl text-nocta-6" >,cup of coffee?</h2>  
             </page-title>
         </section>
         <section class="">
-                <div class="flex flex-col gap-y-5" >
+                <div class="flex flex-col md:gap-y-5 gap-y-7" >
                     <div class="">
                         <span class="uppercase text-lg text-white font-bold">Full Name / Company Name</span>
                         <input class="border-2 border-nocta-2 w-full bg-nocta-5 text-nocta-6 mt-2 p-3 rounded-lg" v-model="name"
                         type="text" placeholder="">
                     </div>
-                    <div class="flex gap-x-36">
+                    <div class="flex md:flex-row flex-col gap-x-36 gap-y-7">
                         <div class=" flex-grow">
                             <span class="uppercase text-lg text-white font-bold">subject</span>
                             <input class="border-2 border-nocta-2 w-full bg-nocta-5 text-nocta-6 mt-2 p-3 rounded-lg" v-model="subject"
@@ -34,7 +34,7 @@
                     </div>
                     <div class="">
                         <span class="uppercase text-lg text-white font-bold">Message</span>
-                        <textarea class="border-2 border-nocta-2 w-full h-36 bg-nocta-5 text-nocta-6 p-3 rounded-lg" v-model="message">
+                        <textarea class="border-2 border-nocta-2 w-full h-32 bg-nocta-5 text-nocta-6 mt-2 p-3 rounded-lg" v-model="message">
                         </textarea>
                     </div>
                     <div class="flex justify-center">
