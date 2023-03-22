@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  
+  target: 'static',
   components: [
     { path: '~/components/homepage'},
     { path: '~/components/skills'},
