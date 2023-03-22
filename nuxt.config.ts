@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   target: 'static',
   router: {
-    base: 'berataras'
+    base: 'MinimalisticPortfolio'
   },
   components: [
     { path: '~/components/homepage'},
