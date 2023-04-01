@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="hidden md:block">
-      <div class="grid grid-cols-12 grid-rows-6 h-screen w-full fixed bg-gradient-to-tr from-nocta-1   to-nocta-7">
+      <div class="grid grid-cols-12 grid-rows-6 h-screen w-full fixed bg-gradient-to-tr from-berry-4  to-berry-3">
           <div class="col-span-10 col-start-2 row-span-1 mt-20">
               <navbar class=""></navbar>
           </div>
-          <div class="bg-nocta-5 col-span-10 col-start-2 row-span-4 relative rounded-xl overflow-y-auto scrollbar-hide z-50">
+          <div class="bg-berry-1 col-span-10 col-start-2 row-span-4 relative rounded-xl overflow-y-auto scrollbar-hide z-50">
               <slot class="" />
           </div>
           <div class="col-span-2 col-start-6">
@@ -46,7 +46,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #004E7C; 
+  background: #66347F; 
   border-radius: 0px 25px 25px 0px;
 }
  

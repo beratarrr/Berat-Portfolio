@@ -10,38 +10,38 @@
                             <span class="animate-pulse block md:w-36 md:h-4 h-3 w-32 bg-yellow-600 rounded-2xl" v-show="!name"> </span>
                         </div>
                     </div>
-                    <h2 class="flex font-bold md:text-6xl text-4xl text-nocta-6" >,cup of coffee?</h2>  
+                    <h2 class="flex font-bold md:text-6xl text-4xl text-berry-4" >,cup of coffee?</h2>  
             </page-title>
         </section>
         <section class="">
                 <div class="flex flex-col md:gap-y-5 gap-y-7" >
                     <div class="">
                         <span class="uppercase text-lg text-white font-bold">Full Name / Company Name</span>
-                        <input class="border-2 border-nocta-2 w-full bg-nocta-5 text-nocta-6 mt-2 p-3 rounded-lg" v-model="name"
+                        <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="name"
                         type="text" placeholder="">
                     </div>
                     <div class="flex md:flex-row flex-col gap-x-36 gap-y-7">
                         <div class=" flex-grow">
                             <span class="uppercase text-lg text-white font-bold">subject</span>
-                            <input class="border-2 border-nocta-2 w-full bg-nocta-5 text-nocta-6 mt-2 p-3 rounded-lg" v-model="subject"
+                            <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="subject"
                             type="text">
                         </div>
                         <div class=" flex-grow">
                             <span class="uppercase text-lg text-white font-bold">email</span>
-                            <input class="border-2 border-nocta-2 w-full bg-nocta-5 text-nocta-6 mt-2 p-3 rounded-lg" v-model="email"
+                            <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="email"
                             type="text">
                         </div>
                     </div>
                     <div class="">
                         <span class="uppercase text-lg text-white font-bold">Message</span>
-                        <textarea class="border-2 border-nocta-2 w-full h-32 bg-nocta-5 text-nocta-6 mt-2 p-3 rounded-lg" v-model="message">
+                        <textarea class="border-2 border-berry-3 w-full h-32 bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="message">
                         </textarea>
                     </div>
-                    <div class="flex justify-center">
-                        <a href="mailto:b.p.aras@hotmail.com?subject=Contact" class="flex justify-center uppercase text-xl font-bold tracking-wide bg-nocta-4 text-nocta-7 p-2 rounded-lg w-72 hover:bg-yellow-600 transitiones">
+                    <knopje class="self-center">
+                        <a href="mailto:b.p.aras@hotmail.com?subject=Contact">
                             Send it through!
-                        </a>
-                    </div>
+                        </a>                    
+                    </knopje>
                 </div>
         </section>
   </div> 

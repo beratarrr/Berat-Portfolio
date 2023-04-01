@@ -1,11 +1,11 @@
 <template>
     <div class="flex flex-col gap-y-5">
-        <div class="bg-nocta-7 rounded-xl">
-            <p class="md:text-3xl text-2xl font-semibold text-nocta-6 px-4 py-1">Academic</p>
+        <div class="rounded-xl bg-berry-2">
+            <p class="md:text-3xl text-2xl font-semibold text-nocta-4 px-4 py-1">Academic</p>
         </div>
         <div class="flex flex-col pl-6 gap-y-5 border-l-8 border-nocta-4">
             <XpCard :key="xp.title" v-for="xp in experiences">
-                <div class="flex md:flex-row flex-col justify-between font-medium bg-nocta-7 text-nocta-6 py-1 px-4 rounded-t-lg">
+                <div class="flex md:flex-row flex-col justify-between font-medium bg-berry-2 text-pink-300 py-1 px-4 rounded-lg">
                     <p class="md:text-2xl text-lg">{{ xp.title }}</p>
                     <p class="md:text-base self-end md:pt-0 pt-3"> {{ xp.date }}</p>
                 </div>
