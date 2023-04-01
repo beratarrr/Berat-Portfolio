@@ -13,7 +13,7 @@
                     <h2 class="flex font-bold md:text-6xl text-4xl text-berry-4" >,cup of coffee?</h2>  
             </page-title>
         </section>
-        <form class="" action="/thanks" method="POST" data-netlify="true" netlify name="contact" netlify-honeypot="bot-field">
+        <form class="" method="POST" data-netlify="true" netlify name="contact" netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contactus" />
                 <div class="flex flex-col md:gap-y-5 gap-y-7" >
                     <div class="">
@@ -38,11 +38,10 @@
                         <textarea class="border-2 border-berry-3 w-full h-32 bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" name="message" v-model="message">
                         </textarea>
                     </div>
-                    <knopje class="self-center" type="submit">
-                        Send it through!
-                        <!-- <a href="mailto:b.p.aras@hotmail.com?subject=Contact">
+                    <knopje class="self-center">
+                        <a href="mailto:b.p.aras@hotmail.com?subject=Contact">
                             Send it through!
-                        </a>                     -->
+                        </a>                    
                     </knopje>
                 </div>
             </form>
