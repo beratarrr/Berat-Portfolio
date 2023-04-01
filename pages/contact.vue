@@ -1,5 +1,5 @@
 <template>
-   <div class="flex flex-col p-8 gap-y-11">
+   <div class="flex flex-col p-8 gap-y-11 bg-berry-1">
         <section class="" >
             <page-title class="flex flex-wrap">
                     <p class="">Hi</p>
@@ -13,7 +13,8 @@
                     <h2 class="flex font-bold md:text-6xl text-4xl text-berry-4" >,cup of coffee?</h2>  
             </page-title>
         </section>
-        <form class="" method="POST" data-netlify="true">
+        <form class="" method="POST" data-netlify="true" netlify name="contact" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contactus" />
                 <div class="flex flex-col md:gap-y-5 gap-y-7" >
                     <div class="">
                         <span class="uppercase text-lg text-white font-bold">Full Name / Company Name</span>

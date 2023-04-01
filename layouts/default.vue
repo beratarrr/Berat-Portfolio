@@ -15,7 +15,7 @@
     </div>
 
 
-    <div class="md:hidden block">
+    <div class="md:hidden block bg-berry-1 ">
       <div class="flex flex-col">
         <div class="">
             <navbar class=""></navbar>
