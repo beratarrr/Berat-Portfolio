@@ -13,28 +13,28 @@
                     <h2 class="flex font-bold md:text-6xl text-4xl text-berry-4" >,cup of coffee?</h2>  
             </page-title>
         </section>
-        <section class="">
+        <form class="" method="POST" data-netlify="true">
                 <div class="flex flex-col md:gap-y-5 gap-y-7" >
                     <div class="">
                         <span class="uppercase text-lg text-white font-bold">Full Name / Company Name</span>
-                        <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="name"
+                        <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="name" name="name"
                         type="text" placeholder="">
                     </div>
                     <div class="flex md:flex-row flex-col gap-x-36 gap-y-7">
                         <div class=" flex-grow">
                             <span class="uppercase text-lg text-white font-bold">subject</span>
-                            <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="subject"
+                            <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" name="subject" v-model="subject"
                             type="text">
                         </div>
                         <div class=" flex-grow">
                             <span class="uppercase text-lg text-white font-bold">email</span>
-                            <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="email"
+                            <input class="border-2 border-berry-3 w-full bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" name="email" v-model="email"
                             type="text">
                         </div>
                     </div>
                     <div class="">
                         <span class="uppercase text-lg text-white font-bold">Message</span>
-                        <textarea class="border-2 border-berry-3 w-full h-32 bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" v-model="message">
+                        <textarea class="border-2 border-berry-3 w-full h-32 bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" name="message" v-model="message">
                         </textarea>
                     </div>
                     <knopje class="self-center">
@@ -43,7 +43,7 @@
                         </a>                    
                     </knopje>
                 </div>
-        </section>
+            </form>
   </div> 
 </template>
 
