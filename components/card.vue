@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-nocta-7 flex flex-col p-5 text-center rounded-xl">
+    <div class="bg-berry-2 flex flex-col p-5 text-center rounded-xl">
         <slot/>
     </div>
 </template>

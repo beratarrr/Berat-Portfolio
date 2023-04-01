@@ -1,7 +1,7 @@
 <template>
     <card>
       <div class="flex flex-col text-left md:text-center md:px-10 gap-y-6">
-        <p class="md:text-4xl text-2xl text-center text-nocta-4 font-semibold">
+        <p class="md:text-4xl text-2xl text-center text-berry-4 font-semibold">
           About Me
         </p>
         <p class="text-nocta-6 md:text-xl text-base">

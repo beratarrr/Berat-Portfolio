@@ -16,7 +16,10 @@ module.exports = {
         "nocta-5": '#203647',
         "nocta-6": '#EEFBFB',
         "nocta-7": '#004E7C',
-  
+        "berry-1": '#37306B',
+        "berry-2": '#66347F',
+        "berry-3": '#9E4784',
+        "berry-4": '#D27685',
       },},
     },
   plugins: [],

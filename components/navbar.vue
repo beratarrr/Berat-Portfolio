@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="hidden md:block">
-            <nav class="flex h-12 bg-nocta-5 w-full rounded-lg justify-around items-center font-semibold"> 
+            <nav class="flex h-12 bg-berry-1 w-full rounded-lg justify-around items-center font-semibold"> 
                 <NuxtLink :class="homeRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/">Home</NuxtLink>
-                <NuxtLink :class="skillsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="skills">Skills</NuxtLink>
+                <!-- <NuxtLink :class="skillsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="skills">Skills</NuxtLink> -->
                 <NuxtLink :class="experienceRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="experience">Experience</NuxtLink>
                 <NuxtLink :class="projectsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="projects">Projects</NuxtLink>
                 <NuxtLink :class="contactRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="contact">Contact</NuxtLink>
@@ -31,7 +31,7 @@
             <nav class="flex flex-col bg-nocta-5 items-center font-semibold transitiones h-full gap-y-3 py-3"
                 :class="{'':hamburgerOpen, 'hidden': !hamburgerOpen }"> 
                 <NuxtLink :class="homeRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="/">Home</NuxtLink>
-                <NuxtLink :class="skillsRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="skills">Skills</NuxtLink>
+                <!-- <NuxtLink :class="skillsRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="skills">Skills</NuxtLink> -->
                 <NuxtLink :class="experienceRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="experience">Experience</NuxtLink>
                 <NuxtLink :class="projectsRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="projects">Projects</NuxtLink>
                 <NuxtLink :class="contactRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="contact">Contact</NuxtLink>

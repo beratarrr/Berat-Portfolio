@@ -1,13 +1,13 @@
 <template>
-    <div class="bg-nocta-5 flex flex-col rounded-xl p-8 gap-y-10">
+    <div class="bg-berry-1 flex flex-col rounded-xl p-8 gap-y-10">
         <page-title class="flex flex-col items-center">
             <p>Projects</p>
-            <p class="md:text-xl text-base font-normal">This page contains a selection of my projects.</p>
+            <p class="md:text-xl text-base font-normal text-berry-4">This page contains a selection of my projects.</p>
         </page-title>
         <section class="flex flex-col">
           <NuxtLink to="datavis" class="flex flex-col mt-6 pl-6 gap-y-5 border-l-8 border-nocta-4 transitiones">
               <XpCard class="hover:border-nocta-4" :key="proj.title" v-for="proj in projects">
-                  <div class="flex font-medium bg-nocta-7 rounded-t-lg text-nocta-6 py-1 px-4">
+                  <div class="flex font-medium bg-berry-2 rounded-lg text-pink-300 py-1 px-4">
                       <p class="md:text-2xl text-lg">{{ proj.title }}</p>
                   </div>
                   <div class="flex md:flex-row flex-col justify-between">
@@ -21,7 +21,7 @@
                             </Pill>
                         </div>
                     </div>
-                    <img class="md:-order-none order-first w-60 m-5 border-2 border-nocta-7 rounded-xl shadow-xl" src="/DATAVIS.svg"/>
+                    <img class="md:-order-none order-first w-60 m-5 shadow-xl" src="/DATAVIS.svg"/>
                   </div>
               </XpCard>
           </NuxtLink>
