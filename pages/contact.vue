@@ -37,10 +37,11 @@
                         <textarea class="border-2 border-berry-3 w-full h-32 bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" name="message" v-model="message">
                         </textarea>
                     </div>
-                    <knopje class="self-center">
-                        <a href="mailto:b.p.aras@hotmail.com?subject=Contact">
+                    <knopje class="self-center" type="submit">
+                        Send it through!
+                        <!-- <a href="mailto:b.p.aras@hotmail.com?subject=Contact">
                             Send it through!
-                        </a>                    
+                        </a>                     -->
                     </knopje>
                 </div>
             </form>
