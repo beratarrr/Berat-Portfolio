@@ -13,7 +13,7 @@
                     <h2 class="flex font-bold md:text-6xl text-4xl text-berry-4" >,cup of coffee?</h2>  
             </page-title>
         </section>
-        <form class="" method="POST" data-netlify="true" netlify name="contact" netlify-honeypot="bot-field">
+        <form class="" action="/thanks" method="POST" data-netlify="true" netlify name="contact" netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contactus" />
                 <div class="flex flex-col md:gap-y-5 gap-y-7" >
                     <div class="">
