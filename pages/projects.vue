@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-berry-1 flex flex-col rounded-xl p-8 gap-y-10">
+    <div class="bg-berry-1 flex flex-col rounded-xl p-5 gap-y-10">
         <page-title class="flex flex-col items-center">
             <p>Projects</p>
             <p class="md:text-xl text-base font-normal text-berry-4">This page contains a selection of my projects.</p>
         </page-title>
         <section class="flex flex-col">
-          <NuxtLink to="datavis" class="flex flex-col mt-6 pl-6 gap-y-5 border-l-8 border-nocta-4 transitiones">
+          <NuxtLink to="projects/datavis" class="flex flex-col mt-6 pl-6 gap-y-5 border-l-8 border-nocta-4 transitiones">
               <XpCard class="hover:border-nocta-4" :key="proj.title" v-for="proj in projects">
                   <div class="flex font-medium bg-berry-2 rounded-lg text-pink-300 py-1 px-4">
                       <p class="md:text-2xl text-lg">{{ proj.title }}</p>

@@ -20,7 +20,7 @@
         <div class="">
             <navbar class=""></navbar>
         </div>
-        <div class="bg-nocta-5 scrollbar-hide">
+        <div class="bg-nocta-5 scrollbar-hide h-screen">
             <slot class="" />
         </div>
       </div>
