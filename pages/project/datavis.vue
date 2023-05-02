@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-berry-1 flex flex-col rounded-xl p-8 gap-y-10">
+    <div class="bg-berry-1 flex flex-col rounded-xl p-8 gap-y-3">
         <div class="flex">
             <backknopje to="/projects" />
             <page-title class="flex items-center m-auto">
@@ -11,7 +11,7 @@
                 <img src="/datavispic.png" />
             </div>
             <projectcard class="col-span-7 rounded-lg">
-                <div class="flex justify-between font-medium bg-berry-2 text-pink-300 py-1 px-4">
+                <div class="flex justify-between font-medium bg-berry-2 text-pink-300 py-1 px-4 rounded-lg">
                     <p class="md:text-2xl text-lg">About</p>
                 </div>
                 <div class="md:text-lg text-base pl-5 md:py-7 py-3 md:pr-32 text-nocta-6">
@@ -21,7 +21,7 @@
                 </div>
             </projectcard>
             <projectcard class="flex flex-col rounded-lg col-span-6">
-                <div class="flex font-medium bg-berry-2 text-pink-300 py-1 px-4">
+                <div class="flex font-medium bg-berry-2 text-pink-300 py-1 px-4 rounded-lg">
                     <p class="md:text-2xl text-lg">Features</p>
                 </div>
                 <div class="flex flex-wrap gap-y-3 gap-x-6 items-center py-3 px-4">
@@ -31,7 +31,7 @@
                 </div>
             </projectcard>
             <projectcard class="col-span-6 rounded-lg">
-                <div class="flex font-medium bg-berry-2 text-pink-300 py-1 px-4">
+                <div class="flex font-medium bg-berry-2 text-pink-300 py-1 px-4 rounded-lg">
                     <p class="md:text-2xl text-lg">Links</p>
                 </div>
                 <div class="flex items-center py-3 px-4 gap-x-5">
