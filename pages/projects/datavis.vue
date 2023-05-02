@@ -1,7 +1,7 @@
 <template>
     <div class="bg-berry-1 flex flex-col rounded-xl p-8 gap-y-10">
         <div class="flex">
-            <backknopje to="projects" />
+            <backknopje to="/projects" />
             <page-title class="flex items-center m-auto">
                 <p class="md:text-3xl text-2xl">Projects / DataVis</p>
             </page-title>
