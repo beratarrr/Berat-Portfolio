@@ -4,9 +4,9 @@
             <nav class="flex h-12 bg-berry-1 w-full rounded-lg justify-around items-center font-semibold"> 
                 <NuxtLink :class="homeRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/">Home</NuxtLink>
                 <!-- <NuxtLink :class="skillsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="skills">Skills</NuxtLink> -->
-                <NuxtLink :class="experienceRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="experience">Experience</NuxtLink>
-                <NuxtLink :class="projectsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="projects">Projects</NuxtLink>
-                <NuxtLink :class="contactRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="contact">Contact</NuxtLink>
+                <NuxtLink :class="experienceRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/experience">Experience</NuxtLink>
+                <NuxtLink :class="projectsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/projects">Projects</NuxtLink>
+                <NuxtLink :class="contactRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/contact">Contact</NuxtLink>
             </nav>
         </div>
         
