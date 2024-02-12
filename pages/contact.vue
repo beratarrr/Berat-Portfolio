@@ -1,7 +1,7 @@
 <template>
    <div class="flex flex-col p-5 gap-y-8 bg-berry-1">
         <section class="" >
-            <page-title class="flex flex-wrap">
+            <PageTitle class="flex flex-wrap">
                     <p class="">Hi</p>
                     <div class="">
                         <h2 class="flex font-bold md:text-5xl text-4xl text-nocta-4" >{{name}}</h2>  
@@ -11,7 +11,7 @@
                         </div>
                     </div>
                     <h2 class="flex font-bold md:text-5xl text-4xl text-berry-4" >,cup of coffee?</h2>  
-            </page-title>
+            </PageTitle>
         </section>
         <form class="" data-netlify="true" netlify name="contact">
                 <div class="flex flex-col md:gap-y-2 gap-y-7" >
@@ -37,11 +37,11 @@
                         <textarea class="border-2 border-berry-3 w-full h-32 bg-berry-1 text-nocta-6 mt-2 p-3 rounded-lg" name="message" v-model="message">
                         </textarea>
                     </div>
-                    <knopje class="self-center">
+                    <Knopje class="self-center">
                         <button type="submit">
                             Send it through!
                         </button>                    
-                    </knopje>
+                    </Knopje>
                     <p class="text-nocta-4">
                         You're also free to send an email to <a class="text-berry-4" href="mailto:b.p.aras@hotmail.com"> my mail</a>.
                     </p>
@@ -53,16 +53,16 @@
 <script lang="ts">
 
 export default {
-  data () {
-      return {
-        contactTitle: "Contact",
-        contactDescr: "Feel free to contact me by filling in this contact form.",
-        name: '',
-        subject: '',
-        message: '',
-        email: '',
-      }
-  }
+    data() {
+        return {
+            contactTitle: "Contact",
+            contactDescr: "Feel free to contact me by filling in this contact form.",
+            name: '',
+            subject: '',
+            message: '',
+            email: '',
+        };
+    },
 }
 
 

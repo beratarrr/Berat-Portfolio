@@ -1,11 +1,11 @@
 <template>
   <div class="bg-berry-1 flex flex-col rounded-xl p-8 gap-y-10">
-    <page-title class="flex flex-col items-center text-center">
+    <PageTitle class="flex flex-col items-center text-center">
       <h1 class="">{{ projectsTitle }}</h1>
       <p class="md:text-xl text-base font-normal text-berry-4 mt-2">
         {{ projectsDescr }} You can click on the project titles to see more! (For completed projects at least! 😄)
       </p>
-    </page-title>
+    </PageTitle>
 
     <section class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-x-16 px-4 md:px-10">
       <div class="flex flex-col gap-y-5 text-center">

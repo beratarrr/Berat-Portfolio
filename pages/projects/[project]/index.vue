@@ -1,16 +1,16 @@
 <template>
   <div class="bg-berry-1 flex flex-col rounded-xl p-8 gap-y-10">
     <div class="flex">
-      <backknopje to="/projects" />
-      <page-title class="flex items-center m-auto">
+      <Backknopje to="/projects" />
+      <PageTitle class="flex items-center m-auto">
         <p class="md:text-3xl text-2xl">{{ project.title }}</p>
-      </page-title>
+      </PageTitle>
     </div>
     <section class="md:grid md:grid-cols-12 flex flex-col gap-4">
       <div class="col-span-5">
         <img :src="project.img" class="rounded-lg"/>
       </div>
-      <projectcard class="col-span-7 rounded-lg">
+      <ProjectProjectcard class="col-span-7 rounded-lg">
         <div
           class="flex justify-between font-medium bg-berry-2 text-pink-300 py-1 px-4"
         >
@@ -23,23 +23,23 @@
             {{ project.descr }}
           </p>
         </div>
-      </projectcard>
-      <projectcard class="flex flex-col rounded-lg col-span-6">
+      </ProjectProjectcard>
+      <ProjectProjectcard class="flex flex-col rounded-lg col-span-6">
         <div class="flex font-medium bg-berry-2 text-pink-300 py-1 px-4">
           <p class="md:text-2xl text-lg">Features</p>
         </div>
         <div class="flex flex-wrap gap-y-3 gap-x-3 items-center py-3 px-4">
-          <pill v-for="feature in project.features" :key="feature">{{
+          <Pill v-for="feature in project.features" :key="feature">{{
             feature
-          }}</pill>
+          }}</Pill>
         </div>
-      </projectcard>
-      <projectcard class="flex flex-col rounded-lg col-span-6">
+      </ProjectProjectcard>
+      <ProjectProjectcard class="flex flex-col rounded-lg col-span-6">
         <div class="flex font-medium bg-berry-2 text-pink-300 py-1 px-4">
           <p class="md:text-2xl text-lg">Links</p>
         </div>
         <div class="flex flex-wrap gap-y-3 gap-x-3 items-center py-3 px-4">
-          <linkbutton
+          <Linkbutton
             v-for="link in project.links"
             :key="link.url"
             :href="link.url"
@@ -47,9 +47,9 @@
           >
             <p>{{link.name }}</p>
             <img src="/link.svg" class="w-7" />
-          </linkbutton>
+        </Linkbutton>
         </div>
-      </projectcard>
+      </ProjectProjectcard>
     </section>
   </div>
 </template>
