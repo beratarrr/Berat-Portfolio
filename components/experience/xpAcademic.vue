@@ -10,9 +10,14 @@
                     <p class="md:text-base self-end md:pt-0 pt-3"> {{ xp.date }}</p>
                 </div>
                 <div class="md:text-lg text-base pl-5 md:py-7 py-3 md:pr-32 text-nocta-6" v-show="xp.description">
-                    <p>
-                        {{ xp.description }}
-                    </p>
+                    <div class="flex flex-col gap-y-2">
+                        <p class="italic">
+                            {{ xp.study }}
+                        </p>
+                        <p>
+                            {{ xp.description }}
+                        </p>
+                    </div>
                 </div>
             </XpCard>
         </div>
@@ -28,7 +33,8 @@ export default {
             {
                 title: "Artificial Intelligence Student - Vrije Universiteit Amsterdam",
                 date: "From 2021",
-                description: "Specialisation in Intelligent Systems",
+                study: "Bachelor of Science in Artificial Intelligence",
+                description: "Specialisation in Intelligent Systems. Relevant Coursework: Machine Learning, Statistical Methods for AI, Multi-agent/Intelligent System, Data Wrangling, Automata and complexity, Programming in Python/R/Matlab, Information Management, Databases.",
             },
             {
                 title: "Pre-University Education - Dalton Den Haag",

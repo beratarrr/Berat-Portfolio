@@ -38,10 +38,13 @@
                         </textarea>
                     </div>
                     <knopje class="self-center">
-                        <a href="mailto:b.p.aras@hotmail.com?subject=Contact">
+                        <button type="submit">
                             Send it through!
-                        </a>                    
+                        </button>                    
                     </knopje>
+                    <p class="text-nocta-4">
+                        You're also free to send an email to <a class="text-berry-4" href="mailto:b.p.aras@hotmail.com"> my mail</a>.
+                    </p>
                 </div>
             </form>
   </div> 

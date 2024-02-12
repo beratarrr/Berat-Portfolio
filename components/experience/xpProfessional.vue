@@ -33,22 +33,24 @@ export default {
         experiences: [
             {
                 title: "Data Analyst -   Deloitte",
-                date: "From 03.2023",
+                date: "From 01.2023",
                 description: "Active as a Data Analyst within a Scrum team in the Tax & Legal Department of Deloitte Netherlands.   ",
-                stack: ["SQL", "Python", "Scraping", "Databricks","Machine Learning",  "Elastic Search", "Artificial Intelligence"]
+                stack: ["SQL", "Python", "Pytorch", "Databricks", "Scraping","Machine Learning", "Artificial Intelligence"]
             },
             {
-                title: "Software Developer - Deloitte",
-                date: "From 01.2022",
+                title: "Web Developer - Deloitte",
+                date: "1.2022 - 01.2023",
                 description: "Active as a Front-End Developer within a Scrum team in the Tax & Legal Department of Deloitte Netherlands. Worked on design and the implementation of said design and features.",
-                stack: ["Vue.js", "Asp.net CORE", "Typescript", "TailwindCSS", "Figma"]
+                stack: ["Vue.js", "Typescript", "TailwindCSS", "Azure", "Figma"]
             },
-            {
-                title: "Dutch Audio Transcriber and Quality Control - ISoftStone",
-                date: "11.2021 - 03.2022",
-                description: "Transcribed Dutch audio files into machine-readable text as a Transcriber with the help of Natural Language Processing Techniques. Managed and controlled transcribed audio files of the Dutch department as Quality Controller.",
-                stack: ["Machine Learning", "NLP", "SQL"]
-            },]
+            // {
+            //     title: "Dutch Audio Transcriber and Quality Control - ISoftStone",
+            //     date: "11.2021 - 03.2022",
+            //     description: "Transcribed Dutch audio files into machine-readable text as a Transcriber with the help of Natural Language Processing Techniques. Managed and controlled transcribed audio files of the Dutch department as Quality Controller.",
+            //     stack: ["Machine Learning", "NLP", "SQL"]
+            // },
+        
+        ]
         }
     }
     }

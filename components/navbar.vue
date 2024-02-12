@@ -4,9 +4,9 @@
             <nav class="flex h-12 bg-berry-1 w-full rounded-lg justify-around items-center font-semibold"> 
                 <NuxtLink :class="homeRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/">Home</NuxtLink>
                 <!-- <NuxtLink :class="skillsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="skills">Skills</NuxtLink> -->
-                <NuxtLink :class="experienceRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="experience">Experience</NuxtLink>
-                <NuxtLink :class="projectsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="projects">Projects</NuxtLink>
-                <NuxtLink :class="contactRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="contact">Contact</NuxtLink>
+                <NuxtLink :class="experienceRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/experience">Experience</NuxtLink>
+                <NuxtLink :class="projectsRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/projects">Projects</NuxtLink>
+                <NuxtLink :class="contactRoute() ? 'activeLink' : 'inactiveLink'" class="pb-1" to="/contact">Contact</NuxtLink>
             </nav>
         </div>
         
@@ -32,9 +32,9 @@
                 :class="{'':hamburgerOpen, 'hidden': !hamburgerOpen }"> 
                 <NuxtLink :class="homeRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="/">Home</NuxtLink>
                 <!-- <NuxtLink :class="skillsRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="skills">Skills</NuxtLink> -->
-                <NuxtLink :class="experienceRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="experience">Experience</NuxtLink>
-                <NuxtLink :class="projectsRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="projects">Projects</NuxtLink>
-                <NuxtLink :class="contactRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="contact">Contact</NuxtLink>
+                <NuxtLink :class="experienceRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="/experience">Experience</NuxtLink>
+                <NuxtLink :class="projectsRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="/projects">Projects</NuxtLink>
+                <NuxtLink :class="contactRoute() ? 'activeLink' : 'inactiveLink'" @click="hamburgerOpen = !hamburgerOpen" class="pb-1" to="/contact">Contact</NuxtLink>
             </nav>
         </div>
     </div>
@@ -55,35 +55,35 @@ export default {
     },
     methods: {
         homeRoute(){
-            if (this.route.name == "index") {
+            if (this.route.name == "/") {
                 return true
             } else {
                 return false
             }
         },
         skillsRoute(){
-            if (this.route.name == "skills") {
+            if (this.route.name == "/skills") {
                 return true
             } else {
                 return false
             }
         },
         experienceRoute(){
-            if (this.route.name == "experience") {
+            if (this.route.name == "/experience") {
                 return true
             } else {
                 return false
             } 
         },
         projectsRoute(){
-            if (this.route.name == "projects") {
+            if (this.route.name == "/projects") {
                 return true
             } else {
                 return false
             }
         },
         contactRoute(){
-            if (this.route.name == "contact") {
+            if (this.route.name == "/contact") {
                 return true
             } else {
                 return false
