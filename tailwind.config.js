@@ -9,17 +9,18 @@ module.exports = {
     "./app.vue",],
     theme: {
       extend: {colors: {
-        "nocta-1": '#4D774E',
-        "nocta-2": '#007CC7',
-        "nocta-3": '#4DA8DA',
-        "nocta-4": '#fba92c',
-        "nocta-5": '#203647',
-        "nocta-6": '#EEFBFB',
-        "nocta-7": '#004E7C',
-        "berry-1": '#37306B',
-        "berry-2": '#66347F',
-        "berry-3": '#9E4784',
-        "berry-4": '#D27685',
+        "nocta-1": "#010409",  // near-black background
+        "nocta-2": "#0A1128",  // deep navy
+        "nocta-3": "#15803D",  // darker green accent
+        "nocta-4": "#10B981",  // bright green accent
+        "nocta-5": "#102A43",  // another dark navy
+        "nocta-6": "#F1F5F9",  // near-white (for text)
+        "nocta-7": "#0891B2",  // teal accent
+      
+        "berry-1": "#081828",  // deep blue-teal
+        "berry-2": "#0B2532",  // darker teal
+        "berry-3": "#059669",  // medium green-teal
+        "berry-4": "#34D399"   // bright minty-green accent
       },},
     },
   plugins: [],

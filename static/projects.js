@@ -1,24 +1,24 @@
 export const completedProjects = [
-  {
-    title: "DataVis, a dashboard for the 2022 Worldcup 📊",
-    descr:
-      "Datavis dashboard is a data dashboad where users can access data about the 2022 world cup in Qatar. The user is able to adjust the charts to their liking and scroll through various graphs and plots to get a better understanding of the data.",
-    features: [
-      "Graphs and plots about the 2022 worldcup",
-      "User adjustable charts",
-      "Responsive design",
-      "Vue3, Pinia, TailwindCSS, Sport API's",
-    ],
-    stack: ["Vue3", "Pinia", "ChartJs", "TailwindCSS"],
-    img: "/projectImages/datavis.png",
-    links: [
-      {
-        name: "Github",
-        url: "https://github.com/beratarrr/datavis-dashboard",
-      },
-    ],
-    route: "/projects/datavis",
-  },
+  // {
+  //   title: "DataVis, a dashboard for the 2022 Worldcup 📊",
+  //   descr:
+  //     "Datavis dashboard is a data dashboad where users can access data about the 2022 world cup in Qatar. The user is able to adjust the charts to their liking and scroll through various graphs and plots to get a better understanding of the data.",
+  //   features: [
+  //     "Graphs and plots about the 2022 worldcup",
+  //     "User adjustable charts",
+  //     "Responsive design",
+  //     "Vue3, Pinia, TailwindCSS, Sport API's",
+  //   ],
+  //   stack: ["Vue3", "Pinia", "ChartJs", "TailwindCSS"],
+  //   img: "/projectImages/datavis.png",
+  //   links: [
+  //     {
+  //       name: "Github",
+  //       url: "https://github.com/beratarrr/datavis-dashboard",
+  //     },
+  //   ],
+  //   route: "/projects/datavis",
+  // },
   {
     title: "Examo, the ultimate exam platform 📚",
     descr:
@@ -47,9 +47,9 @@ export const projectIdeas = [
   {
     title: "ML model for recognizing camouflaged military jets. 🪖",
   },
-  {
-    title: "ML model for predicting the outcome of a football match. ⚽️",
-  },
+  // {
+  //   title: "ML model for predicting the outcome of a football match. ⚽️",
+  // },
 ];
 
 export const inprogressProjects = [
