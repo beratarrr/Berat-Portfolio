@@ -13,7 +13,7 @@
           <h2 class="flex font-bold md:text-5xl text-4xl text-berry-4">, cup of coffee?</h2>
         </PageTitle>
       </section>
-      <form netlify method="POST" data-netlify="true" name="contact">
+      <form netlify data-netlify="true" name="contact" 	method="post" data-netlify-honeypot="bot-field">
         <!-- Hidden input required for Netlify Forms -->
         <input type="hidden" name="form-name" value="contact" />
         
